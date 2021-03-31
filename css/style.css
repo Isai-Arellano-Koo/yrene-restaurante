@@ -74,7 +74,12 @@ img {
 /* header */
 .header {
     background-color: var(--negro);
-    padding: 1.5rem 0;
+    padding-top: 1.5rem;
+}
+@media (min-width: 1200px) {
+    .header {
+        padding: 2rem 0;
+    }
 }
 .header.fijo {
     position: fixed;
@@ -86,7 +91,7 @@ img {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
     max-width: 1200px;
 
 }
@@ -101,7 +106,9 @@ img {
     color: var(--rojo);
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 0;
+    padding-top: 1rem;
+    margin: 0;
+    line-height: 0;
     
 }
 .contenido-header span {
@@ -121,9 +128,6 @@ img {
         cursor: pointer;
     }
 }
-.navegacion {
-    display: none;
-}
 
 .navegacion {
     display: flex;
@@ -131,6 +135,7 @@ img {
     justify-content: space-between;
     flex-direction: column;
     gap: 2rem;
+    padding-bottom: 1rem;
 
     
     
@@ -230,7 +235,7 @@ img {
 }
 .tres-puntos {
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 @media (min-width: 1200px) {
     .tres-puntos {
