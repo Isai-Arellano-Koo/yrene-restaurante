@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'iconos';
+  src:  url('iconos.eot?rrdhbv');
+  src:  url('iconos.eot?rrdhbv#iefix') format('embedded-opentype'),
+    url('iconos.ttf?rrdhbv') format('truetype'),
+    url('iconos.woff?rrdhbv') format('woff'),
+    url('iconos.svg?rrdhbv#iconos') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconos' !important;
+  speak-as: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-trespuntos:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e900";
+  color: #1877f2;
+}
+.icon-instagram:before {
+  content: "\e901";
+  color: #e4405f;
+}
