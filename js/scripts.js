@@ -54,7 +54,14 @@ function Mostrar_Ocultar() {
     }
 
 }
-
+function ocu() {
+    const Media = window.matchMedia("(max-width: 1200px)")
+    if(Media.matches) {
+        Ocultar();
+    }else {
+        
+    }
+}
 
 
 
