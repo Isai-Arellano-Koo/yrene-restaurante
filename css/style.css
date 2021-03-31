@@ -67,7 +67,13 @@ img {
     width: 20%;
 }
 .separacion-bottom {
-    padding-top: 10rem;
+    padding-top: 17rem;
+}
+@media (min-width: 1200px) {
+    .separacion-bottom {
+
+        padding-top: 10rem;
+    }
 }
 
 
