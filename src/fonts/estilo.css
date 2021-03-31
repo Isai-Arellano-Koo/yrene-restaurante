@@ -27,6 +27,7 @@
 
 .icon-trespuntos:before {
   content: "\e902";
+  color: #ffffff;
 }
 .icon-facebook:before {
   content: "\e900";

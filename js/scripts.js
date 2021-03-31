@@ -37,5 +37,23 @@ function scrollNav() {
  });
 }
 
-$('.navegacion').hide();
+function Mostrar() {
+    
+    document.getElementById('nav').style.display = 'flex';
+
+}
+function Ocultar() {
+    document.getElementById('nav').style.display = 'none'
+}
+function Mostrar_Ocultar() {
+    const nav = document.getElementById('nav');
+    if(nav.style.display == 'none'){
+        Mostrar();
+    }else {
+        Ocultar();
+    }
+}
+
+
+
 
