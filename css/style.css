@@ -130,7 +130,7 @@ img {
 }
 
 .navegacion {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
@@ -144,6 +144,8 @@ img {
 
 @media (min-width: 1200px) {
     .navegacion {
+        display: flex;
+        
         flex-direction: row;
     }
 }
@@ -236,10 +238,12 @@ img {
 .tres-puntos {
     text-align: center;
     font-size: 4rem;
+    cursor: pointer;
 }
 @media (min-width: 1200px) {
     .tres-puntos {
         display: none;
+
     }
 }
 
