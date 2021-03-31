@@ -215,7 +215,7 @@ img {
 @media (min-width: 1200px) {
     .TodosProductos {
         grid-template-columns: repeat(4, 30rem);
-        grid-template-rows: repeat(2, 60rem);
+        grid-template-rows: repeat(2, 50rem);
     }
 }
 /*Footer*/
