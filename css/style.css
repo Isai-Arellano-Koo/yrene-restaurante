@@ -56,7 +56,7 @@ img {
     font-size: 2rem;
     display: block;
     border: none;
-    background-color: var(--gris);
+    background-color: var(--negro);
     font-family: var(--fuenteGabriela);
     text-transform: uppercase;
     font-weight: bold;
@@ -80,6 +80,7 @@ img {
 .header {
     background-color: var(--negro);
     padding: 2rem 0;
+    box-shadow: 0 .3rem .2rem #444;
 }
 @media (min-width: 1200px) {
     .header {
@@ -91,7 +92,7 @@ img {
 .header.fijo {
     position: fixed;
     width: 100%;
-    box-shadow: 0 .3rem 0.4rem #444;
+    box-shadow: 0 .3rem .4rem #444;
     top: 0;
 }
 .contenido-header {
@@ -174,9 +175,9 @@ img {
 }
 .producto {
     width: 100%;
-    -webkit-box-shadow: 5px 5px 12px -1px rgba(242,242,242,1);
-    -moz-box-shadow: 5px 5px 12px -1px rgba(242,242,242,1);
-    box-shadow: 5px 5px 12px -1px rgba(242,242,242,1);
+    -webkit-box-shadow: 3px 4px 1px -1px rgba(240,240,240,1);
+    -moz-box-shadow: 3px 4px 1px -1px rgba(240,240,240,1);
+    box-shadow: 3px 4px 1px -1px rgba(240,240,240,1);
     border-radius: 1%;
     padding: 1rem;
     background-color: var(--blanco);
@@ -184,10 +185,11 @@ img {
 
 
 .nombre-precio h2 {
-    font-family: var(-);
-    font-size: 3rem;
+    font-family: var(--fuenteLora);
+    font-size: 2.7rem;
     text-align: center;
     font-weight: 300;
+
     
 
 }
