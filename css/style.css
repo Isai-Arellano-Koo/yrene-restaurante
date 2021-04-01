@@ -166,6 +166,9 @@ img {
 .navegacion__enlace:hover {
     color: var(--rojo);
 }
+.seccion:last-of-type {
+    padding-bottom: 3rem;
+}
 .seccion h1 {
     text-align: center;
     color: var(--negro);
@@ -226,8 +229,11 @@ img {
 }
 /*Footer*/
 .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: var(--gris);
-    padding: 1.5rem 0;
+
 }
 .footer p {
     color: var(--blanco);
@@ -235,7 +241,8 @@ img {
     text-align: center;
     font-size: 1.7rem;
     font-weight: bold;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
+    margin: 0;
 }
 .footer span {
     display: block;
