@@ -246,7 +246,7 @@ img {
     font-size: 3rem;
     cursor: pointer;
     padding-right: 2rem;
-    padding-top: .2rem;
+    padding-top: .3rem;
 }
 @media (min-width: 1200px) {
     .tres-puntos {
