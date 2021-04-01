@@ -80,7 +80,7 @@ img {
 /* header */
 .header {
     background-color: var(--negro);
-    padding-top: 1.5rem;
+    padding: 2rem 0;
 }
 @media (min-width: 1200px) {
     .header {
@@ -109,6 +109,10 @@ img {
         flex-direction: row;
     }
 }
+.yrene {
+    display: flex;
+    justify-content: center;
+}
 .contenido-header h1 {
     font-family: var(--fuenteLora);
     color: var(--rojo);
@@ -127,16 +131,6 @@ img {
         margin-left: 5rem;
     }
 }
-.menu-icon {
-    display: none;
-}
-@media (max-width: 768px) {
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-    }
-}
-
 .navegacion {
     display: none;
     align-items: center;
@@ -249,8 +243,9 @@ img {
 }
 .tres-puntos {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.5rem;
     cursor: pointer;
+    padding-right: 2rem;
 }
 @media (min-width: 1200px) {
     .tres-puntos {
