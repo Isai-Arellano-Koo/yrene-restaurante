@@ -237,7 +237,7 @@ img {
 }
 .footer p {
     color: var(--blanco);
-    font-family: var(--fuenteGabriela);
+    font-family: var(--fuentePoiret);
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
@@ -247,7 +247,7 @@ img {
 .footer span {
     display: block;
     color: var(--blanco);
-    font-family: var(--fuenteGabriela);
+    font-family: var(--fuentePoiret);
 }
 @media (min-width: 768px) {
     .footer span {
