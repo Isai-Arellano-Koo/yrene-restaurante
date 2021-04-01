@@ -167,7 +167,7 @@ img {
     color: var(--rojo);
 }
 .seccion:last-of-type {
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
 }
 .seccion h1 {
     text-align: center;
