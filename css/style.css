@@ -59,6 +59,7 @@ img {
     background-color: var(--negro);
     font-family: var(--fuenteGabriela);
     text-transform: uppercase;
+    text-align: center;
     font-weight: bold;
     color: var(--blanco);
     cursor: pointer;
@@ -66,21 +67,26 @@ img {
 }
 
 .separacion-bottom {
-    padding-top: 17rem;
+    padding-top: 8rem;
 }
 @media (min-width: 1200px) {
     .separacion-bottom {
 
-        padding-top: 14rem;
-    }
-}
+        padding-top: 7rem;
+    }}
+    .separacion-1elemento{
+        padding-top: 8rem;
+    } 
 
 
 /* header */
 .header {
+    position: fixed;
+    width: 100%;
+    top: 0;
     background-color: var(--negro);
     padding: 2rem 0;
-    box-shadow: 0 .3rem .2rem #444;
+    box-shadow: 0 .3rem .1rem #444;
 }
 @media (min-width: 1200px) {
     .header {
@@ -172,10 +178,16 @@ img {
 .seccion h1 {
     text-align: center;
     color: var(--negro);
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: var(--fuenteGabriela);
 
 }
+@media (min-width: 768px) {
+    .seccion h1 {
+        font-size: 6rem;
+    }
+}
+
 .producto {
     width: 100%;
     -webkit-box-shadow: 3px 4px 1px -1px rgba(240,240,240,1);
@@ -197,6 +209,7 @@ img {
     font-size: 2.7rem;
     text-align: center;
     font-weight: 300;
+    margin-bottom: 0;
 
     
 
@@ -204,9 +217,25 @@ img {
 .nombre-precio p {
     font-family: var(--fuenteLora);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     color: var(--rojo);
+    margin-top: 1rem;
+}
+.ver-info {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.info {
+    display: none;
+}
+.info p{
+    font-family: var(--fuenteLora);
+    color: var(--gris);
+    font-size: 1.5rem;
 }
 .TodosProductos {
     display: grid;
@@ -277,8 +306,4 @@ img {
 @media (min-width: 1200px) {
     .tres-puntos {
         display: none;
-
-    }
-}
-
-
+    }}
