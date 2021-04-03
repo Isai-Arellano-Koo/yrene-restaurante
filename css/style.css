@@ -205,7 +205,7 @@ img {
 
 
 .nombre-precio h2 {
-    font-family: var(--fuenteLora);
+    font-family: var(--fuenteGabriela);
     font-size: 2.7rem;
     text-align: center;
     font-weight: 300;
@@ -230,12 +230,12 @@ img {
     cursor: pointer;
 }
 .info {
-    display: none;
+    display: block;
 }
 .info p{
     font-family: var(--fuentePoiret);
     color: var(--gris);
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 .TodosProductos {
     display: grid;
@@ -259,10 +259,17 @@ img {
 /*Footer*/
 .footer {
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     bottom: 0;
     width: 100%;
     background-color: var(--gris);
 
+}
+.footer-iconos {
+    margin-right: 1rem;
+    font-size: 2.5rem;
 }
 .footer p {
     color: var(--blanco);
