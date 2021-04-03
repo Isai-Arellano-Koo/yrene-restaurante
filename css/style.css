@@ -233,9 +233,9 @@ img {
     display: none;
 }
 .info p{
-    font-family: var(--fuenteLora);
+    font-family: var(--fuentePoiret);
     color: var(--gris);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .TodosProductos {
     display: grid;
