@@ -63,7 +63,7 @@ img {
     font-weight: bold;
     color: var(--blanco);
     cursor: pointer;
-    border-radius: 7%;
+    border-radius: 1.6rem;
 }
 
 .separacion-bottom {
