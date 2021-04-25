@@ -56,7 +56,7 @@ img {
     font-size: 2rem;
     display: block;
     border: none;
-    background-color: #E8DFDF;
+    background-color: #F8F5F5;
     font-family: var(--fuenteGabriela);
     text-transform: uppercase;
     text-align: center;
@@ -84,9 +84,9 @@ img {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: #E8DFDF;
+    background-color: #F8F5F5;
     padding-top: 2rem;
-    box-shadow: 0 .3rem .1rem #E8DFDF;
+    box-shadow: 0 .3rem .1rem #F8F5F5;
 }
 @media (min-width: 1200px) {
     .header {
@@ -98,7 +98,7 @@ img {
 .header.fijo {
     position: fixed;
     width: 100%;
-    box-shadow: 0 .3rem .4rem #E8DFDF;
+    box-shadow: 0 .3rem .4rem #F8F5F5;
     top: 0;
 }
 .contenido-header {
@@ -280,7 +280,7 @@ img {
     align-items: center;
     bottom: 0;
     width: 100%;
-    background-color: #E8DFDF;
+    background-color: #F8F5F5;
 
 }
 .footer-iconos {
