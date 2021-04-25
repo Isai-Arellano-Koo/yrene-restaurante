@@ -288,7 +288,7 @@ img {
     font-size: 2.5rem;
 }
 .footer p {
-    color: var(--negro);
+    color: var(--rojo);
     font-family: var(--fuentePoiret);
     text-align: center;
     font-size: 1.5rem;
@@ -298,7 +298,6 @@ img {
 }
 .footer span {
     display: block;
-    color: var(--rojo);
     font-family: var(--fuentePoiret);
 }
 @media (min-width: 768px) {
