@@ -211,7 +211,7 @@ img {
     box-shadow: 3px 4px 1px -1px rgba(240,240,240,1);
     border-radius: 1%;
     padding: 1rem;
-    background-color: var(--grisSuave);
+    background-color: #EAE8E8;
 }
 @media (min-width: 768px) {
     .producto {
