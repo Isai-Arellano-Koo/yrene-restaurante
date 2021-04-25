@@ -56,12 +56,12 @@ img {
     font-size: 2rem;
     display: block;
     border: none;
-    background-color: var(--negro);
+    background-color: #EAE8E8;
     font-family: var(--fuenteGabriela);
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    color: var(--blanco);
+    color: var(--rojo);
     cursor: pointer;
     border-radius: 1.6rem;
 }
