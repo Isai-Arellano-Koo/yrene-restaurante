@@ -215,7 +215,7 @@ img {
 }
 @media (min-width: 768px) {
     .producto {
-        background-color: #F8F8F8;
+        background-color: var(--blanco);
     }
 }
 
