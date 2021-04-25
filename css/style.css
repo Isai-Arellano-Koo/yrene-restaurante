@@ -298,6 +298,7 @@ img {
 }
 .footer span {
     display: block;
+    color: var(--rojo);
     font-family: var(--fuentePoiret);
 }
 @media (min-width: 768px) {
