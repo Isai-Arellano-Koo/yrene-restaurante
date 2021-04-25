@@ -84,7 +84,7 @@ img {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: #EAE8E8;
+    background-color: var(--negro);
     padding-top: 2rem;
     box-shadow: 0 .3rem .1rem #444;
 }
