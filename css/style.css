@@ -86,7 +86,7 @@ img {
     top: 0;
     background-color: #EAE8E8;
     padding-top: 2rem;
-    /* box-shadow: 0 .3rem .1rem #444; */
+    box-shadow: 0 .3rem .1rem #EAE8E8;
 }
 @media (min-width: 1200px) {
     .header {
@@ -98,7 +98,7 @@ img {
 .header.fijo {
     position: fixed;
     width: 100%;
-    /* box-shadow: 0 .3rem .4rem #444; */
+    box-shadow: 0 .3rem .4rem #EAE8E8;
     top: 0;
 }
 .contenido-header {
