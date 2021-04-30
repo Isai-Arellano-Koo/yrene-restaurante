@@ -75,7 +75,7 @@ img {
         padding-top: 7rem;
     }}
     .separacion-1elemento{
-        padding-top: 8rem;
+        padding-top: 10rem;
     } 
 
 
@@ -85,15 +85,8 @@ img {
     width: 100%;
     top: 0;
     background-color: #F5F1F1;
-    padding-top: 2rem;
+    padding-top: 0rem;
     box-shadow: 0 .3rem .1rem #F5F1F1;
-}
-@media (min-width: 1200px) {
-    .header {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        
-    }
 }
 .header.fijo {
     position: fixed;
@@ -117,9 +110,21 @@ img {
 .yrene {
     display: flex;
     justify-content: center;
-    padding-bottom: 2rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    align-items: center;
+   
 }
-.contenido-header h1 {
+.yrene-img {
+    background-image: url(../src/img/yrene.png);
+    background-size: 15rem;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    width: 12rem;
+    height: 10rem;
+
+}
+/* .contenido-header h1 {
     font-family: var(--fuenteGabriela);
     color: var(--rojo);
     text-align: center;
@@ -132,7 +137,7 @@ img {
 }
 .contenido-header span {
     color: var(--negro);
-}
+} */
 @media (min-width: 1200px) {
     .yrene {
         margin-left: 5rem;
@@ -165,8 +170,9 @@ img {
 
 .navegacion__enlace {
     display: block;
+    text-align: center;
     color: var(--rojo);
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: var(--fuentePoiret);
     padding-bottom: 2rem;
     
@@ -309,7 +315,7 @@ img {
 
 .iconos {
     display: flex;
-    font-size: 3rem;
+    font-size: 4rem;
     justify-content: start;
     align-self: center;
     padding-bottom: 2rem;
@@ -317,6 +323,7 @@ img {
 @media (min-width: 1200px) {
     .iconos {
         margin-right: 7rem;
+        margin-left: 3rem;
         padding-bottom: 0;
     }
 }
@@ -325,7 +332,7 @@ img {
     font-size: 3rem;
     cursor: pointer;
     padding-right: 2rem;
-    padding-top: .3rem;
+    padding-top: 3rem;
 }
 @media (min-width: 1200px) {
     .tres-puntos {
