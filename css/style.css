@@ -24,7 +24,7 @@ html {
     background-color: var(--grisSuave);
     box-sizing: border-box;
     font-size: 62.5%;
-    max-width: 1200px;
+    
     
   }
   *, *:before, *:after {
@@ -109,12 +109,15 @@ img {
     justify-content: space-between;
     flex-direction: column;
     max-width: 1200px;
+    width: 100%;
+    margin: auto;
 
 }
 
 @media (min-width: 1200px) {
     .contenido-header {
         flex-direction: row;
+        width: 100%;
     }
 }
 .yrene {
@@ -166,8 +169,12 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-bottom: 0;
+        padding-bottom: 0;;
     }
+}
+.enlaces {
+    display: flex;
+    width: 100%;
 }
 .facebook {
     margin-right: 2rem;
@@ -210,7 +217,7 @@ img {
 @media (min-width: 1200px) {
     .seccion {
         max-width: 1200px;
-        margin-left: 7rem;
+        margin: auto;
     }
 }
 
@@ -282,6 +289,7 @@ img {
     row-gap: 1rem;
     align-items: center;
     justify-content: center;
+    margin: auto;
 
 }
 @media (min-width: 768px) {
@@ -295,6 +303,7 @@ img {
     .TodosProductos {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(1, 50rem);
+        margin-left: 7rem;
     }
 }
 /*Footer*/
