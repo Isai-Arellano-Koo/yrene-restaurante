@@ -76,6 +76,9 @@ img {
 .boton span {
     font-size: 2rem;
 }
+.boton:hover {
+    background-color: #EBE4E4;
+}
 
 .separacion-bottom {
     padding-top: 8rem;
@@ -179,12 +182,15 @@ img {
     display: flex;
     width: 100%;
     flex-direction: column;
+    align-items: center;
 }
 @media (min-width: 1200px) {
     .enlaces {
         flex-direction: row;
+
     }
 }
+
 .facebook {
     margin-right: 2rem;
 }
@@ -201,28 +207,49 @@ img {
     font-size: 1.7rem;
     font-family: var(--fuentePoiret);
     padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     
 }
 .navegacion__enlace:last-of-type {
     padding-bottom: 0;
-    padding-right: 0;
+    padding-right: 2rem;
 
 }
 @media (min-width: 1200px) {
     .navegacion__enlace {
         display: flex;
-        padding-right: 2rem;
         padding-bottom: 0;
     }
 
 }
 
 .navegacion__enlace:hover {
-    color: var(--negro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF0000;
+    background-color: #EBE4E4;
+    transition: 1s;
+    width: 100%;
+    height: auto;
+
 }
-.seccion:last-of-type {
-    padding-bottom: 6rem;
+@media (min-width: 1200px) {
+    .navegacion__enlace:hover{
+        width: auto;
+        height: 8rem;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
+.seccion {
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #CFCFCF;
+
+}
+
 @media (min-width: 1200px) {
     .seccion {
         max-width: 1200px;
