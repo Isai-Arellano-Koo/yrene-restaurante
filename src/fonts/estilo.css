@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'iconos';
-  src:  url('iconos.eot?c5al5');
-  src:  url('iconos.eot?c5al5#iefix') format('embedded-opentype'),
-    url('iconos.ttf?c5al5') format('truetype'),
-    url('iconos.woff?c5al5') format('woff'),
-    url('iconos.svg?c5al5#iconos') format('svg');
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?pzcns9');
+  src:  url('icomoon.eot?pzcns9#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?pzcns9') format('truetype'),
+    url('icomoon.woff?pzcns9') format('woff'),
+    url('icomoon.svg?pzcns9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,7 @@
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'iconos' !important;
+  font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -26,16 +26,17 @@
 }
 
 .icon-menu:before {
-  content: "\e902";
-}
-.icon-tres-puntos:before {
-  content: "\e903";
-}
-.icon-facebook:before {
   content: "\e900";
-  color: #1877f2;
+}
+.icon-whatsapp:before {
+  content: "\e901";
+  color: #25d366;
 }
 .icon-instagram:before {
-  content: "\e901";
+  content: "\e902";
   color: #e4405f;
+}
+.icon-facebook:before {
+  content: "\e903";
+  color: #1877f2;
 }

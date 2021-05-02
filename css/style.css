@@ -353,22 +353,27 @@ img {
     justify-content: start;
     align-self: center;
     padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 @media (min-width: 1200px) {
     .iconos {
         margin-right: 7rem;
         margin-left: 3rem;
         padding-bottom: 0;
+        padding-top: 0;
     }
 }
 .tres-puntos {
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.9rem;
     cursor: pointer;
-    padding-right: 2rem;
+
     padding-top: 3rem;
 }
 @media (min-width: 1200px) {
     .tres-puntos {
         display: none;
     }}
+.icon-whatsapp {
+    font-size: 2.2rem;
+}
