@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     scrollNav();
         
@@ -14,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         barra.classList.remove('fijo');
        } else {
         barra.classList.add('fijo');
+        
        }
     }) 
 
@@ -63,17 +65,18 @@ function ocu() {
     }
 }
 let ubicacionP = window.pageYOffset;
-window.onscroll = () => {
+        window.onscroll = () => {
     const desplazamientoActual = window.pageYOffset;
-    if(ubicacionP >= desplazamientoActual){
+    if(ubicacionP >= desplazamientoActual || ubicacionP <= 100 ){
         document.getElementById('todoNav').style.top = '0';
-    }else {
+    }else{
         document.getElementById('todoNav').style.top = '-100px';
        
     }
     ubicacionP = desplazamientoActual;
 
 }
+
 
 // function MostrarInfo1() {
     
