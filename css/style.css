@@ -49,8 +49,8 @@ img {
 }
 @media (min-width: 768px) {
     img{
-        width: 35rem;
-        height: 23rem;
+        width: 40rem;
+        height: 25rem;
     }
 }
 /* Utilidades */
@@ -62,7 +62,6 @@ img {
 .boton {
     width: 100%;
     padding: 2rem;
-    font-size: 2rem;
     display: block;
     border: none;
     background-color: #F5F1F1;
@@ -73,6 +72,9 @@ img {
     color: var(--rojo);
     cursor: pointer;
     border-radius: 1.6rem;
+}
+.boton span {
+    font-size: 2rem;
 }
 
 .separacion-bottom {
@@ -97,6 +99,7 @@ img {
     padding-top: 0rem;
     box-shadow: 0 .3rem .1rem #F5F1F1;
     transition: top .5s;
+
 }
 .nav.fijo {
     position: fixed;
@@ -375,5 +378,5 @@ img {
         display: none;
     }}
 .icon-whatsapp {
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
