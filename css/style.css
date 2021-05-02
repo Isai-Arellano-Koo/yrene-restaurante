@@ -309,7 +309,7 @@ img {
     .TodosProductos {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(1, 50rem);
-        margin-left: 7rem;
+
     }
 }
 /*Footer*/
