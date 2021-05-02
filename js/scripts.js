@@ -65,7 +65,7 @@ function ocu() {
 let ubicacionP = window.pageYOffset;
 window.onscroll = function () {
     let desplazamientoActual = window.pageYOffset;
-    if(ubicacionP >= desplazamientoActual){
+    if(ubicacionP > desplazamientoActual){
         document.getElementById('todoNav').style.top = '0';
     }else {
         document.getElementById('todoNav').style.top = '-100px';
