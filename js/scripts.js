@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
  function navegacionFija() {
 
-    const barra = document.querySelector('.header')
+    const barra = document.querySelector('.nav')
   
     //Registrar el Intersection Obsserver   
     const observer = new IntersectionObserver( function (entries) {
@@ -61,6 +61,18 @@ function ocu() {
     }else {
 
     }
+}
+let ubicacionP = window.pageYOffset;
+window.onscroll = function () {
+    let desplazamientoActual = window.pageYOffset;
+    if(ubicacionP >= desplazamientoActual){
+        document.getElementById('todoNav').style.top = '0';
+    }else {
+        document.getElementById('todoNav').style.top = '-100px';
+       
+    }
+    ubicacionP = desplazamientoActual;
+
 }
 
 // function MostrarInfo1() {
