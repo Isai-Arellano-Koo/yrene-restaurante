@@ -96,7 +96,7 @@ img {
     background-color: #F5F1F1;
     padding-top: 0rem;
     box-shadow: 0 .3rem .1rem #F5F1F1;
-    transition: top .5s;
+    transition: top .7s;
 }
 .nav.fijo {
     position: fixed;
