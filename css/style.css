@@ -81,7 +81,7 @@ img {
 @media (min-width: 1200px) {
     .separacion-bottom {
 
-        padding-top: 7rem;
+        padding-top: 5.5rem;
     }}
     .separacion-1elemento{
         padding-top: 10rem;
@@ -96,7 +96,7 @@ img {
     background-color: #F5F1F1;
     padding-top: 0rem;
     box-shadow: 0 .3rem .1rem #F5F1F1;
-    transition: top .7s;
+    transition: top .5s;
 }
 .nav.fijo {
     position: fixed;
