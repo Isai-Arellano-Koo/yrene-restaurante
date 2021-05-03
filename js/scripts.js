@@ -70,12 +70,13 @@ let ubicacionP = window.pageYOffset;
     if(ubicacionP >= desplazamientoActual || ubicacionP <= 100 ){
         document.getElementById('todoNav').style.top = '0';
     }else{
-        document.getElementById('todoNav').style.top = '-100px';
+        document.getElementById('todoNav').style.top = '-100px'; 
        
     }
     ubicacionP = desplazamientoActual;
 
 }
+
 
 
 // function MostrarInfo1() {
