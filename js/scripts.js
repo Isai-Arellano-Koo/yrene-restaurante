@@ -65,14 +65,18 @@ function ocu() {
     }
 }
 let ubicacionP = window.pageYOffset;
+const Media = window.matchMedia("(max-width: 1200px)")
         window.onscroll = () => {
     const desplazamientoActual = window.pageYOffset;
-    if(ubicacionP >= desplazamientoActual || ubicacionP <= 100 ){
+    if(Media.matches){
+        if(ubicacionP >= desplazamientoActual || ubicacionP <= 100){
         document.getElementById('todoNav').style.top = '0';
     }else{
         document.getElementById('todoNav').style.top = '-100px'; 
        
     }
+    }
+    
     ubicacionP = desplazamientoActual;
 
 }
